@@ -36,6 +36,17 @@ import CarRoadmap from "../components/CarRoadmap"; // Import the CarRoadmap comp
 import InfiniteScrollAnimation from "../components/infinity"; // Import the InfiniteScrollAnimation component
 import GlitchText from "../components/GlitchText";
 
+import edclassroom from '../assets/edclassroom.jpg';
+import gate1 from '../assets/gate1.jpg';
+import gate3 from '../assets/gate3.jpg';
+import heatpower from '../assets/heatpower.jpg';
+import hydraulic from '../assets/HYDRAULIC.jpg';
+import maingate from '../assets/maingate.jpg';
+import mechanical from '../assets/Mechanical.png';
+import microhydro from '../assets/microhydro.jpg';
+import workshop from '../assets/workshop.jpg';
+
+
 const theme = createTheme({
   typography: {
     fontFamily: "Open Sans, Arial",
@@ -150,6 +161,52 @@ const destinations = [
     name: "Mechanical Department",
     image:
       "https://lh3.googleusercontent.com/p/AF1QipPiNJJwo8Zm5JsHLqmoyL3PhlPFybcvYTExE_Fv=s1360-w1360-h1020",
+  },
+  {
+    id: 5,
+    name: "ED Classroom",
+    image: edclassroom,
+  },
+ 
+  {
+    id: 6,
+    name: "Main Gate 1",
+    image: gate1,
+  },
+  {
+    id: 7,
+    name: "Main Gate 3",
+    image: gate3,
+  },
+  {
+    id: 8,
+    name: "Heat Power Lab",
+    image: heatpower,
+  },
+  {
+    id: 9,
+    name: "Hydraulic Lab",
+    image: hydraulic,
+  },
+  {
+    id: 10,
+    name: "Main Gate",
+    image: maingate,
+  },
+  {
+    id: 11,
+    name: "Mechanical Department",
+    image: mechanical,
+  },
+  {
+    id: 12,
+    name: "Micro Hydro Project",
+    image: microhydro,
+  },
+  {
+    id: 13,
+    name: "Workshop",
+    image: workshop,
   },
 ];
 
